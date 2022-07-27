@@ -13,6 +13,8 @@
 		A9264BC7252C0CB70071CBE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9264BC6252C0CB70071CBE4 /* Preview Assets.xcassets */; };
 		A9264BC9252C0CB70071CBE4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9264BC8252C0CB70071CBE4 /* Persistence.swift */; };
 		A9264BCC252C0CB70071CBE4 /* SightWords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9264BCA252C0CB70071CBE4 /* SightWords.xcdatamodeld */; };
+		A9264BD6252C10D20071CBE4 /* AddWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9264BD5252C10D20071CBE4 /* AddWordView.swift */; };
+		A9264BDA252C176E0071CBE4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9264BD9252C17660071CBE4 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A9264BC8252C0CB70071CBE4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A9264BCB252C0CB70071CBE4 /* SightWords.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SightWords.xcdatamodel; sourceTree = "<group>"; };
 		A9264BCD252C0CB70071CBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9264BD5252C10D20071CBE4 /* AddWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordView.swift; sourceTree = "<group>"; };
+		A9264BD9252C17660071CBE4 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		A9264BBE252C0CA40071CBE4 /* SightWords */ = {
 			isa = PBXGroup;
 			children = (
+				A9264BD4252C109D0071CBE4 /* Views */,
 				A9264BBF252C0CA40071CBE4 /* SightWordsApp.swift */,
 				A9264BC1252C0CA40071CBE4 /* ContentView.swift */,
 				A9264BC3252C0CB70071CBE4 /* Assets.xcassets */,
@@ -73,6 +78,15 @@
 				A9264BC6252C0CB70071CBE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9264BD4252C109D0071CBE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9264BD5252C10D20071CBE4 /* AddWordView.swift */,
+				A9264BD9252C17660071CBE4 /* GameView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,8 @@
 				A9264BC9252C0CB70071CBE4 /* Persistence.swift in Sources */,
 				A9264BCC252C0CB70071CBE4 /* SightWords.xcdatamodeld in Sources */,
 				A9264BC2252C0CA40071CBE4 /* ContentView.swift in Sources */,
+				A9264BD6252C10D20071CBE4 /* AddWordView.swift in Sources */,
+				A9264BDA252C176E0071CBE4 /* GameView.swift in Sources */,
 				A9264BC0252C0CA40071CBE4 /* SightWordsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
